@@ -1,5 +1,7 @@
 # Huhu - a javascript and php based Messenger - The Frontend
 
+![image](https://raw.githubusercontent.com/JanST123/Huhu_Frontend/master/icons/icon.png)
+
 Please find all details, the history and basic guides in the [Huhu-Backend](https://github.com/JanST123/Huhu)" repository here on github.
 
 
