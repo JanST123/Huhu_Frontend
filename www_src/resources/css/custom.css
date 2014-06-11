@@ -1,0 +1,183 @@
+.smilie {
+	padding-left: 10px;
+	min-width: 14px;
+	width: 14px;
+	height: 16px;
+	display: inline;
+	position: relative;
+	background-image: url('../icons/smilies/smilie_map.png');
+	background-repeat: no-repeat;
+}
+.smilie.smile {
+	background-position:0 0;
+}
+.smilie.sad {
+	background-position:-14px 0;
+}
+.smilie.thung {
+	background-position:-28px 0;
+}
+.smilie.cry {
+	background-position:-42px 0;
+}
+.smilie.wow {
+	background-position:-56px 0;
+}
+.smilie.grin {
+	background-position:-70px 0;
+}
+.smilie.twinker {
+	background-position:-84px 0;
+}
+
+.loadericon {
+	width: 16px;
+	height: 16px;
+	position: relative;
+	background-image: url('../icons/loader.gif');
+	background-repeat: no-repeat;
+}
+
+
+
+.contactListStatus, .searchResultAdditionalInfo {
+	font-size: 10px;
+	font-weight: bold;
+}
+
+
+.chatlistunreadmsg {
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.chatlistunreadmsg span {
+	font-style: italic;
+}
+
+.chatlistunreadmsg .badge {
+	float: left;
+	color: white;
+	background-color: red;
+	border-radius: 8px;
+	min-width: 14px;
+	margin-right: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-bottom: 2px;
+}
+
+.chatcontainer .x-scroll-scroller {
+	width: 100%!important;
+}
+
+.chatmessage {
+	position: relative;
+	margin-bottom: 2px;
+	font-size: 14px;
+	border-radius: 20px;
+	min-width: 45%;
+	max-width: 90%;
+	padding: 8px;
+	margin: 4px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+
+/* system message */
+.chatmessage.myself2 {
+	width: 100%;
+	text-align: center;
+	color: #6F6F6F;
+	background-color: #DBDBDB;
+}
+
+/* own message */
+.chatmessage.myself1 {
+	color: black;
+	float: right;
+	background-image: -webkit-linear-gradient(white 0%, #E6E6E6 100%); 
+}
+
+/* message from anyone else */
+.chatmessage.myself0 {
+	color: blue;
+	float: left;
+	background-image: -webkit-linear-gradient(white 0%, #A7C7E6 100%);
+}
+
+
+
+.chatmessage .head {
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.chatmessage.myself2 .head {
+	display: none;
+}
+
+.chatmessage .msg {
+	padding: 2px;
+}
+
+ .x-list.contactlist .x-list-disclosure:before {
+	content: 'w';
+}
+
+ .x-list.invisiblelist .x-list-disclosure:before {
+	content: 'd';
+}
+
+ .x-list.contactlist .x-list-disclosure.openRequestDisclosure:before {
+	content: '2';
+}
+
+.x-button-icon.box:before {
+	content: 'b';
+}
+
+.x-button-icon.poweroff:before {
+	content: 'Q';
+}
+
+.x-tab .x-button-icon.key:before, .x-button .x-button-icon.key:before {
+    content: 'K';
+}
+
+.uploading {
+	border-radius: 4px;
+	background-color: white;
+}
+
+.uploading .status {
+	background-color: silver;
+}
+
+.uploading .progressContainer {
+	position: relative;
+	width: 200px;
+	height: 10px;
+	border: 1px solid black;
+}
+
+.uploading .progressContainer .progressBar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 99%;
+	background-color: green;
+}
+
+
+#createKeyStatus {
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 4px;
+    text-align: center;
+}
+

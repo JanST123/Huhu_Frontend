@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="hu.we-hu.huhu" version="0.0.1">
+    <name>Huhu</name>
+    <description>A Messenger with end-to-end encryption.</description>
+    <author email="webmaster@we-hu.hu" href="http://we-hu.hu">Jan Stuhlmann</author>
+
+    <gap:platform name="ios" />
+    <gap:platform name="android" />
+
+    <preference name="phonegap-version" value="3.1.0" />
+    <preference name="orientation" value="default" />
+    <preference name="fullscreen" value="false" />
+
+    <!-- iOS specific -->
+    <preference name="target-device" value="universal" />
+    <preference name="prerendered-icon" value="false" />
+    <preference name="ios-statusbarstyle" value="default" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+
+    <!-- android specific -->
+    <preference name="android-minSdkVersion" value="7" />
+    <preference name="android-installLocation" value="auto" />
+    <preference name="splash-screen-duration" value="5000" />
+
+
+    <icon src="resources/icons/app/icon_owl.png" width="128" height="128" />
+    <icon src="resources/icons/app/ios-57.png" gap:platform="ios" width="57" height="57" />
+    <icon src="resources/icons/app/ios-72.png" gap:platform="ios" width="72" height="72" />
+    <icon src="resources/icons/app/ios-114.png" gap:platform="ios" width="114" height="114" />
+    <icon src="resources/icons/app/ios-144.png" gap:platform="ios" width="144" height="144" />
+
+    <icon src="resources/icons/app/android-ldpi.png" gap:platform="android" gap:density="ldpi" />
+    <icon src="resources/icons/app/android-mdpi.png" gap:platform="android" gap:density="mdpi" />
+    <icon src="resources/icons/app/android-hdpi.png" gap:platform="android" gap:density="hdpi" />
+    <icon src="resources/icons/app/android-xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+
+    <gap:splash src="resources/icons/app/splash-ios-iphone_default_2x.png" />
+    <gap:splash src="resources/icons/app/splash-ios-iphone_default.png" gap:platform="ios" width="320" height="480" />
+    <gap:splash src="resources/icons/app/splash-ios-iphone_default_2x.png" gap:platform="ios" width="640" height="960" />
+    <gap:splash src="resources/icons/app/splash-ios-iphone5.png" gap:platform="ios" width="640" height="1136" />
+    <gap:splash src="resources/icons/app/splash-ios-ipad-landscape.png" gap:platform="ios" width="1024" height="768" />
+    <gap:splash src="resources/icons/app/splash-ios-ipad-portrait.png" gap:platform="ios" width="768" height="1004" />
+    <gap:splash src="resources/icons/app/splash-ios-retinaipad-landscape.png" gap:platform="ios" width="2048" height="1496" />
+    <gap:splash src="resources/icons/app/splash-ios-retinaipad-portrait.png" gap:platform="ios" width="1536" height="2008" />
+
+
+    <feature name="http://api.phonegap.com/1.0/device"/>
+    <feature name="http://api.phonegap.com/1.0/camera"/>
+
+    <gap:plugin name="org.apache.cordova.device" />
+    <gap:plugin name="org.apache.cordova.file" />
+    <gap:plugin name="com.phonegap.plugins.pushplugin" />
+    <gap:plugin name="org.apache.cordova.contacts" />
+
+    <access origin="https://we-hu.hu"/>
+    <content src="index.html"/>
+</widget>

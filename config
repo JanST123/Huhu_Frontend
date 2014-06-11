@@ -1,0 +1,9 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "master"]
+	url = git@github.com:JanST123/Huhu_Frontend.git
+	fetch = +refs/heads/*:refs/remotes/master/*
