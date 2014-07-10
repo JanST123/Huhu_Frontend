@@ -4,19 +4,19 @@ Ext.define('Huhu.util.Config', {
     config : {
         activeChatId: null,
         activeNavigationView: null,
-        apiUrl: 'https://we-hu.hu/api/',
+        apiUrl: 'http://localhost/huhu/api/',
         apnToken: null,
         appInBackground: 0,
         debug: true,
         language: 'de',
         languageDefault: 'de',
         loggedin: false,
-        pageUrl: 'https://we-hu.hu',
+        pageUrl: 'http://localhost/huhu_app/www_src',
         privateKey: null,
         pusher: null,
         regid: null,
         userid: null,
-        websocketUrl: 'wss://we-hu.hu:8400'
+        websocketUrl: 'ws://localhost:8400'
     },
     constructor: function(config) {
         this.initConfig(config);
